@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:blanchedalmond !important;
+}
+
+.todoTitle{
+    text-align: center;
+}
+
+#addSomething{
+    height:40px;
+    width:300px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayList{
+  margin: auto;
+  width:400px;
+  font-size: 20px;
+}
+
+.deleteBtn{
+    position: absolute;
+  right: 100px;
+  width:80px;
+  background-color: azure;
+  border-radius: 4px;
+  margin:-20px 60px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+    body {
+      background-color: pink !important;
+    }
+
+    .displayList{
+        margin:10px;
+    }
+    .deleteBtn{
+        margin:-30px 60px;
+        right:0;
+    }
+    #addSomething{
+        width:300px;
+    }
+  }
