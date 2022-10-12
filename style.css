@@ -19,6 +19,12 @@ body{
     border-radius: 5px;
 }
 
+#maxLength{
+    text-align: center;
+    margin:5px;
+}
+
+
 .container{
     display: flex;
     justify-content: center;
